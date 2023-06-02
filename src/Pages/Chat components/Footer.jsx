@@ -32,7 +32,7 @@ const Footer = () => {
                     }}
                 />
                 <div className="send" onClick={handleSend}>
-                    <img src="img/icons/paper-plane.svg" alt="" />
+                    <img src="https://locogpt.sirv.com/Images/icons/paper-plane.svg" alt="" />
                 </div>
             </div>
             <div 
@@ -42,8 +42,8 @@ const Footer = () => {
                 onTouchEnd={()=>stopListening()}
                 onMouseUp={()=>stopListening()}
             >
-                <img className='off' src="img/icons/microphone-alt.svg" alt="" />
-                <img className='on' src="img/icons/solid/microphone-alt.svg" alt="" />
+                <img className='off' src="https://locogpt.sirv.com/Images/icons/microphone-alt.svg" alt="" />
+                <img className='on' src="https://locogpt.sirv.com/Images/icons/solid/microphone-alt.svg" alt="" />
             </div>
         </div>
     )

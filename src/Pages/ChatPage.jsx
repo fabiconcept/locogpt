@@ -168,10 +168,10 @@ const ChatPage = () => {
                             </div>
                             {!listening && String(transcript).length > 0 && <div className="bts-row">
                                 <div className="b" onClick={closeTranscriptHanger}>
-                                    <img src="img/icons/times.svg" alt="" />
+                                    <img src="https://locogpt.sirv.com/Images/icons/times.svg" alt="" />
                                 </div>
                                 <div className="b" onClick={acceptTranscript}>
-                                    <img src="img/icons/check.svg" alt="" />
+                                    <img src="https://locogpt.sirv.com/Images/icons/check.svg" alt="" />
                                 </div>
                             </div>}
                         </div>

@@ -7,7 +7,7 @@ const Top = () => {
         <div className="top">
             <div>
                 <div className="clickable" onClick={()=>setSplashState("in")}>
-                    <img src="img/icons/arrow-left.svg" alt="" />
+                    <img src="https://locogpt.sirv.com/Images/icons/arrow-left.svg" alt="" />
                 </div>
             </div>
             <div>
@@ -15,7 +15,7 @@ const Top = () => {
             </div>
             <div>
                 <div className="clickable">
-                    <img src="img/icons/ellipsis-v.svg" alt="" />
+                    <img src="https://locogpt.sirv.com/Images/icons/ellipsis-v.svg" alt="" />
                 </div>
             </div>
         </div>

@@ -64,13 +64,13 @@ const Screen = ({ screen_x, navController, img, title, p, type }) => {
 
                     <div className="btnx-row">
                         {type > 0 && <div className="btnx" onClick={() => navController(type - 1)}>
-                            <img src="img/icons/arrow-left.svg" alt="" />
+                            <img src="https://locogpt.sirv.com/Images/icons/arrow-left.svg" alt="" />
                         </div>}
                         {type < 2 && <div className="btnx" onClick={() => navController(type + 1)}>
-                            <img src="img/icons/arrow-right.svg" alt="" />
+                            <img src="https://locogpt.sirv.com/Images/icons/arrow-right.svg" alt="" />
                         </div>}
                         {type === 2 && <div className="btnx" onClick={navController}>
-                            <img src="img/icons/robot.svg" alt="" />
+                            <img src="https://locogpt.sirv.com/Images/icons/robot.svg" alt="" />
                         </div>}
                     </div>
                 </div>
