@@ -12,7 +12,6 @@
 @keyframes roll-in {
     from{
         transform: rotate(180deg) scale(0);
-        opacity: 0;
     }
     
     to{
@@ -24,7 +23,6 @@
 @keyframes slide-out {
     to{
         transform: translateX(-200%) scale(0);
-        opacity: 0;
         
     }
     from{
