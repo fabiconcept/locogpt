@@ -72,6 +72,13 @@
     }
 }
 
+@keyframes big-jump {
+    50% {
+        transform: translateY(-10px);
+        opacity: .3;
+    }
+}
+
 @keyframes splashLeave {
     10%{
         transform: translateY(10%);

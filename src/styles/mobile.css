@@ -1,4 +1,7 @@
 @media screen and (max-width: 768px) {
+    .splashScreen .txt-bar {
+        padding: 1rem 2rem .5rem 2rem;
+    }    
 
     .chatPage .chatSection {
         padding: .75rem .75rem 2rem .75rem;
@@ -10,4 +13,16 @@
         font-size: .8rem;
         padding: .75rem;
     }    
+
+    .splashScreen .txt-bar .title {
+        line-height: normal;
+        font-size: 1.25rem;
+        margin-top: .25rem;
+        padding-bottom: 7px;
+    }    
+
+    .splashScreen .txt-bar .p {
+        padding-bottom: .25rem;
+    }
+    
 }
