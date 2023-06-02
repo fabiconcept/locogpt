@@ -42,7 +42,7 @@ const ChatPage = () => {
             const response = await axios.post(
                 'https://api.openai.com/v1/chat/completions',
                 {
-                    messages: [{ role: 'system', content: 'You are a foul mouthed assistant, that enjoys to help, your name is LocoGPT.' }, { role: 'user', content: message }],
+                    messages: [{ role: 'system', content: 'You are a useful assistant, that enjoys to help, your name is LocoGPT, the name of your developer is Samuel Promise, Samuel Promise is a student of Computer Science Final year in Imo State University Nigeria, he built this project a his Final Year Project, His Final Year Peoject Topic is Design and Implementation of an AI Assistant.' }, { role: 'user', content: message }],
                     model: "gpt-3.5-turbo"
                 },
                 {
