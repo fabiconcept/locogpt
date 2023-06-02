@@ -1,0 +1,34 @@
+* {
+    /* outline: 1px solid var(--red); */
+}
+
+.splashScreen .in .txt-bar{
+    z-index: 7;
+}
+
+.splashScreen .out .txt-bar{
+    transition-delay: .2s;
+    opacity: 0;
+    z-index: 6;
+    pointer-events: none;
+}
+
+.splashScreen .out .img img{
+    transform-origin: bottom;
+    animation-delay: .4s;
+    animation: roll-out .75s ease-in-out forwards;
+}
+
+.splashScreen .in .img img{
+    animation: roll-in .75s ease-in-out forwards;
+    transform-origin: bottom;
+}
+
+
+.splashScreen .out .txt-bar .title, .splashScreen .out .txt-bar .p {
+    animation: slide-out .25 ease-in-out forwards;
+}
+
+.splashScreen .in .txt-bar .title, .splashScreen .in .txt-bar .p {
+    animation: slide-in .75s ease-in-out forwards;
+}

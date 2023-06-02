@@ -1,0 +1,45 @@
+.btnx {
+    border-radius: .5rem;
+    background-color: var(--main-color);
+    transition: var(--transition);
+    width: fit-content;
+    display: grid;
+    place-items: center;
+    padding: .75rem 1rem;
+    cursor: pointer;
+}
+
+.btnx img {
+    transition: var(--transition);
+    filter: brightness(0) invert(1);
+    height: 1rem;
+}
+
+.btnx:hover {
+    filter: hue-rotate(-60deg);
+}
+
+.btnx:active img {
+    transform: rotate(10deg);
+}
+
+.btnx:active {
+    transform: scale(.9) translateY(2px);
+}
+
+.btnx-row {
+    display: flex;
+    gap: .5rem;
+}
+
+.ellipsis {
+    display: flex;
+    gap: 5px;
+}
+
+.ellipsis div {
+    height: 5px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    background-color: var(--white);
+}

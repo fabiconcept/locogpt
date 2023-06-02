@@ -1,0 +1,100 @@
+@keyframes roll-out {
+    from{
+        transform: rotate(0);
+    }
+    
+    to{
+        transform: rotate(-180deg) scale(0);
+        opacity: 0;
+    }
+}
+
+@keyframes roll-in {
+    from{
+        transform: rotate(180deg) scale(0);
+        opacity: 0;
+    }
+    
+    to{
+        transform: rotate(0)  scale(1);
+        opacity: 1;
+    }
+}
+
+@keyframes slide-out {
+    to{
+        transform: translateX(-200%) scale(0);
+        opacity: 0;
+        
+    }
+    from{
+        opacity: 1;
+        transform: translateX(0);
+    }    
+}
+
+@keyframes slide-in {
+    to{
+        transform: translateX(0);        
+        opacity: 1;
+    }
+    
+    from{
+        transform: translateX(200%);        
+    }
+}
+
+@keyframes enter {
+    from{
+        transform: scale(0);
+        opacity: 0;
+    }
+    to{
+        transform: scale(1);        
+        opacity: 1;
+    }
+}
+
+@keyframes exit {
+    from{
+        transform: scale(1);        
+        opacity: 1;
+    }
+    to{
+        transform: scale(0);
+        opacity: 0;
+    }
+}
+
+@keyframes jump {
+    50% {
+        transform: translateY(-3px);
+    }
+}
+
+@keyframes splashLeave {
+    10%{
+        transform: translateY(10%);
+    }
+    50%{
+    }
+    100%{
+        transform: translateY(-100%);
+    }
+}
+
+@keyframes splashEnter {
+    0%{
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    60%{
+        opacity: 1;
+    }
+    90%{
+        transform: translateY(10%);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
