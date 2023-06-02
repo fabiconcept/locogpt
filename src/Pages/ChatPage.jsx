@@ -106,7 +106,7 @@ const ChatPage = () => {
             }else{
                 setChats([
                     ...chats, 
-                    { value: "Hey there, buddy! What's crackin'? I'm here to lend a hand, so spill the beans and let's get this party started.", type: 0, key: "75dp8aiicdji", timestamp: new Date().getTime()}
+                    { value: "Hello there! I'm your friendly AI Assistant LocoGPT, ready to help you. Let's get started! ✨", type: 0, key: "75dp8aiicdji", timestamp: new Date().getTime()}
                 ]);
             }
         });
